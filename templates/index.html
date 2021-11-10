@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <title>Document</title>
+</head>
+<body > 
+    <div id="main">
+        <div class="header">
+            
+            <div class="header-container">
+                <img src="./static/img/dong.jpg" alt="" class="header-container--img">
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-container">
+                
+                <h1 class="content-container--text">{{person.full_name}}</h1>
+                <h2 class="content-container--text1">{{person.date}}</h2>
+            </div>
+
+
+        </div>
+        <div class="footer">
+            <div class="footer-container">
+
+                <a href={{person.face}} class="footer-container--link">
+
+                    <button type="button" class="btn btn-secondary"><i class="fab fa-facebook-square"></i> Facebook</button>
+                </a>
+                <a href={{person.insta}} class="footer-container--link">
+                    <button type="button" class="btn btn-secondary"><i class="fab fa-instagram"></i> Instagram</button>              
+
+                </a>
+
+                <a href="#" class="footer-container--link">
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-phone"></i> {{person.phone}}</button>
+
+                </a>
+                
+                
+            
+            
+            </div>
+
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
