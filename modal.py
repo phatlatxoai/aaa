@@ -6,6 +6,6 @@ class person :
         self.insta = insta
         self.phone = phone
 
-chan_dong = person('Phương Chấn Đông','14/10/2002','https://www.facebook.com/cher1410','https://www.instagram.com/sontungmtp/','0972939525')
+chan_dong = person('Phương Chấn Đông','14/10/2002','https://www.facebook.com/cher1410','https://www.instagram.com/chandong.phuong.5/','0972939525')
 
 
